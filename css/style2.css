@@ -1,0 +1,204 @@
+/* スライドショーの外枠 */
+.slideshow-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    /* 1枚目を背景として指定しておくことで、画像タグが読み込まれる前の隙間を埋める */
+    background: url('../picture/kari/1t.jpg') center/cover no-repeat;
+}
+
+/* 各スライドの共通設定 */
+.slide-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0; /* 基本は透明 */
+    animation: slide-animation 15s infinite;
+}
+
+/* 1枚目：最初から表示(opacity: 1)させておき、
+  アニメーションが一周したときだけフェードするようにする
+*/
+.slide-img:nth-child(1) {
+    opacity: 1; 
+    animation-delay: 0s;
+}
+
+.slide-img:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.slide-img:nth-child(3) {
+    animation-delay: 10s;
+}
+
+/* アニメーション：最初(0%)を不透明にすることで「パッ」と表示させる */
+@keyframes slide-animation {
+    0% { opacity: 0; }
+    10% { opacity: 1; }  /* 表示完了 */
+    33% { opacity: 1; }  /* 保持 */
+    43% { opacity: 0; }  /* 退場 */
+    100% { opacity: 0; }
+}
+
+/* 1枚目専用のアニメーション（最初だけ不透明度1からスタートさせる） */
+.slide-img:nth-child(1) {
+    animation-name: first-slide-animation;
+}
+
+@keyframes first-slide-animation {
+    0%, 33% { opacity: 1; } /* 最初から33%地点（5秒間）までは出しっぱなし */
+    43% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }    /* ループの最後で次の一枚目として戻る */
+}
+
+
+/*おしらせ*/
+.accordion-003 {
+    margin-bottom: 5px;
+    border-bottom: 2px solid #d0d0d0;
+}
+
+.accordion-003 summary {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    position: relative;
+    color: #333333;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.accordion-003 summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion-003 summary::after {
+    transform: translateY(-25%) rotate(45deg);
+    width: 7px;
+    height: 7px;
+    margin-left: 10px;
+    border-bottom: 3px solid #333333b3;
+    border-right: 3px solid #333333b3;
+    content: '';
+    transition: transform .3s;
+}
+
+.accordion-003[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.accordion-003 p {
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: .3em 2em 1.5em;
+    color: #333333;
+    transition: transform .5s, opacity .5s;
+}
+
+.accordion-003[open] p {
+    transform: none;
+    opacity: 1;
+}
+
+@keyframes modal-2-animation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .modal-2__open-label {
+        max-width: 90%;
+        padding: .94em 2.1em .94em 2.6em;
+    }
+
+    .modal-2__close-label {
+        top: -17px;
+        right: -4%;
+    }
+
+    .modal-2__content-wrap {
+        width: 90vw;
+    }
+
+    .modal-2__content {
+        padding: 33px 21px 35px;
+        max-width: 100%;
+    }
+}
+
+/* 隠しておく用のクラス */
+.hidden {
+  display: none;
+}
+
+/* 表示された時のクラス */
+.is-open {
+  display: block;
+}
+
+/* ボタンのデザイン（destyleで消えるので最低限の装飾） */
+#more-btn {
+  padding: 5px 10px;
+  color: #626262;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* タブ */
+.tab-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab-1 > label {
+    flex: 1 1;
+    order: -1;
+    min-width: 70px;
+    padding: .7em 1em .5em;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 0;
+    background-color: #e9f0f6;
+    color: #535353;
+    font-size: .9em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab-1 > label:hover {
+    opacity: .8;
+}
+
+.tab-1 input {
+    display: none;
+}
+
+.tab-1 > div {
+    display: none;
+    width: 100%;
+    background-color: #fff;
+}
+
+.tab-1 label:has(:checked) {
+    background-color: #fff;
+    border-color: #ff4538 #f0f0f0 #fff;
+    border-style: solid;
+    border-width: 4px 1px 1px;
+    border-radius: 5px;
+    color: #333333;
+}
+
+.tab-1 label:has(:checked) + div {
+    display: block;
+}

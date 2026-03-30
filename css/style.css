@@ -1,0 +1,119 @@
+/* --- 1. 定数・変数 --- */
+:root {
+  --main-color: #ff4438;
+  --light-color: #ffebe9;
+  --back-color: #ffffff;
+  --section-color: #f7f7f7;
+  --h-color: #222222;
+  --p-color: #555555;
+  --akusent-color: #1f2937;
+}
+
+/* --- 2. ベースデザイン --- */
+body {
+  font-family: noto-sans-jp;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 { font-size: 2em; font-weight: bold; }
+h2 { font-size: 1.5em; font-weight: bold; }
+h3 { font-size: 1.17em; font-weight: bold; }
+h4 { font-size: 1em; font-weight: bold; }
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0061c8;
+  text-decoration: underline;
+}
+
+ul, ol {
+  margin: 3px 0;
+  padding-left: 40px; /* リストのインデント */
+}
+
+ul { list-style: disc; }
+ol { list-style: decimal; }
+
+.b {
+  font-weight: bold;
+}
+
+.br {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+/* --- 3. メインコンテンツパーツ --- */
+.right {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h2 {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background-color: var(--light-color);
+  border-left-width: 13px;
+  border-left-color: var(--main-color);
+}
+
+.emoji {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+  background-color: var(--back-color);
+  border-radius: 100px;
+}
+
+.accordion-003 {
+  width: 100%;
+  margin: 0px;
+}
+
+summary {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.osirase {
+  margin: 3px;
+}
+
+.posta- {
+  display: flex;
+  justify-content: center; /* 横方向の中央揃え */
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.posta- img {
+  width: 60%;
+}
+
+.dark {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  background-color: #e5e5e5;
+  border-radius: 30px;
+}
+
+.dark h3 {
+  padding-top: 0px;
+  padding-bottom: 3px;
+}

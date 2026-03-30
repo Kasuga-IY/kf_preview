@@ -1,0 +1,36 @@
+/* --- ヘッダー --- */
+header {
+  height: 70px;
+  padding-top: 10px;
+  background-color: var(--main-color);
+}
+
+header img {
+  float: left;
+  height: 51px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+/* --- コンテンツエリア --- */
+.right {
+  width: 100%;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+/* --- 戻るボタン --- */
+.back h3 {
+  margin-top: 15px;
+}
+
+.back a {
+  color: #5c5c5c;
+  text-decoration: none;
+}

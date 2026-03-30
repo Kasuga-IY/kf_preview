@@ -1,0 +1,100 @@
+/* --- 1. 全体・レイアウト --- */
+body {
+  margin: 0;
+}
+
+.zentai {
+  display: flex;
+  flex-direction: column; /* モバイルは縦並び */
+}
+
+.left {
+  width: 100%;
+  height: 50vh; /* モバイルでの高さ */
+  background-color: var(--light-color); /* 画像がない時の予備色 */
+}
+
+.right {
+  width: 100%;
+}
+
+/* --- 2. 特定のコンポーネント --- */
+.taitoru {
+  width: 90vmin;
+  height: 90vmin;
+  text-align: left;
+}
+
+.taitoru img {
+  width: 55%;
+  height: 55%;
+  margin-top: 22.5%;
+  padding-left: 5%;
+}
+
+.logo {
+  position: absolute;
+  top: 20%;      /* 上から50%の位置 */
+  left: 30%;     /* 左から50%の位置 */
+  z-index: 10;   /* スライド画像(デフォルト0〜1)より大きい数字にする */
+  width: 50%;  /* ロゴの横幅（お好みで調整） */
+  transform: translate(-50%, -50%); /* 自身のサイズ分戻して真ん中へ */
+  pointer-events: none; /* ロゴの下にあるリンク等をクリックできるようにする設定 */
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* 必要ならドロップシャドウをつけてロゴを見やすくする */
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}
+
+/* --- 3. レスポンシブ (PC/スマホ切り替え) --- */
+@media (min-width: 768px) {
+  .zentai {
+    flex-direction: row; /* 横並び */
+  }
+
+  .left {
+    position: sticky; /* スクロールしても固定 */
+    top: 0;
+    width: 60%; /* 画面の左半分 */
+    height: 100vh; /* 画面にフィット */
+  }
+}
+
+@media (max-width: 768px) {
+  .left {
+    height: 100vh;
+  }
+  
+  .logo {
+    width: 40%;
+  }
+}
+
+
+.link {
+  display: flex;
+  justify-content: center; /* 横方向の中央揃え */
+  width: 100%;
+  margin-top: 20px;
+}
+
+.link img {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .link img{
+    width: 70%
+  }
+  .link{
+    margin-left: 15%;
+  }
+}
+
+ul{
+  padding-left: 10px;
+}
