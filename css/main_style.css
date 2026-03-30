@@ -78,7 +78,6 @@ body {
 .link {
   display: flex;
   justify-content: center; /* 横方向の中央揃え */
-  width: 100%;
   margin-top: 20px;
 }
 
@@ -97,4 +96,19 @@ body {
 
 ul{
   padding-left: 10px;
+}
+
+footer{
+  background-color: #e0e0e0;
+}
+
+.footer{
+  display: flex;
+  justify-content: center; /* 横方向の中央揃え */
+  margin-top: 30px;
+}
+
+footer img{
+  width: 20%;
+  margin: 3%;
 }
