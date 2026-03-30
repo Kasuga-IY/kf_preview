@@ -16,7 +16,6 @@
   /* 1枚最低270px幅で、入る分だけ横に並べる（はみ出すと自動改行） */
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); 
   gap: 20px;            /* 写真同士の間隔 */
-  justify-items: center; /* 中央寄せ */
   align-items: start;    /* 上揃え */
   padding: 10px;
   padding-top: 0px;
@@ -34,6 +33,7 @@
   height: auto;          /* 比率を維持 */
   max-width: 360px;      /* 横に並ぶときの最大サイズを制限 */
   object-fit: cover;     /* 写真の比率を保ちつつトリミングして収める */
+  margin:auto;
 }
 
 h4{
