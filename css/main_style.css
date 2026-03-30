@@ -133,3 +133,47 @@ footer img{
   border-style: dotted;
   border-color: var(--main-color);
 }
+
+.accordion-003 {
+  width: 100%;
+  margin: 0px;
+}
+
+summary {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.osirase {
+  margin: 3px;
+}
+
+.posta- {
+  display: flex;
+  justify-content: center; /* 横方向の中央揃え */
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.posta- img {
+  width: 60%;
+}
+
+.dark {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #eaeaea;
+  border-radius: 30px;
+}
+
+.dark h3 {
+  padding-top: 0px;
+  padding-bottom: 3px;
+}
