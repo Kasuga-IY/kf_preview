@@ -42,13 +42,9 @@ ul, ol {
 ul { list-style: disc; }
 ol { list-style: decimal; }
 
-.b {
-  font-weight: bold;
-}
-
 .br {
-  font-weight: bold;
-  color: var(--main-color);
+  color: #ff4d4d;          /* 赤色（少し鮮やかにしています） */
+  font-weight: bold;       /* 太文字 */
 }
 
 /* --- 3. メインコンテンツパーツ --- */
