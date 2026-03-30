@@ -39,7 +39,7 @@ ul, ol {
   padding-left: 40px; /* リストのインデント */
 }
 
-ul { list-style: disc; }
+ul { list-style: disc; margin-left: 13px;}
 ol { list-style: decimal; }
 
 .br {
@@ -110,7 +110,7 @@ summary {
 
 .dark {
   padding: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-right: 20px;
   background-color: #eaeaea;
   border-radius: 30px;
