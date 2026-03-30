@@ -113,14 +113,17 @@ footer img{
   margin: 3%;
 }
 
-.kyouryoku {
+.kyouryoku li{
   width: 50%;
   float:left;
-  
 }
 
 .center {
   text-align: center;
+}
+
+.tyousei li{
+  width: 100%;
 }
 
 .gaiyou{
