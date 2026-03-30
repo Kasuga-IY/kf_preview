@@ -120,3 +120,12 @@ summary {
   padding-top: 0px;
   padding-bottom: 3px;
 }
+
+.emg{
+  height: 40px;
+  float: left;
+}
+
+img{
+  height: 100%;
+}
