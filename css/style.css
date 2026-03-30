@@ -53,9 +53,9 @@ ol { list-style: decimal; }
 
 /* --- 3. メインコンテンツパーツ --- */
 .right {
-  width: 90%;
-  padding-left: 5%;
-  padding-right: 5%;
+  width: 94%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 h2 {
