@@ -3,11 +3,11 @@
   width: 100%;
   margin-top: 15px;
   border-style: solid;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  border-width: 2px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-width: 6px;
   border-top: 0px;
-  border-color: var(--akusent-color);
+  border-color: #dbe2e7;
 }
 
 /* --- タブの動作設定 --- */
