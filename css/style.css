@@ -11,9 +11,12 @@
 
 /* --- 2. ベースデザイン --- */
 body {
-  font-family: noto-sans-jp;
   color: #333;
   line-height: 1.6;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 { font-size: 2em; font-weight: bold; }
