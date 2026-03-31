@@ -25,7 +25,6 @@ h3 { font-size: 1.17em; font-weight: bold; }
 h4 { font-size: 1em; font-weight: bold; }
 
 p {
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -61,7 +60,7 @@ ol { list-style: decimal; }
 h2 {
   width: 100%;
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
