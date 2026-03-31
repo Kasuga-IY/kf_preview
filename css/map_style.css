@@ -45,3 +45,54 @@ h4{
 .card-big_group h4{
   margin-bottom: 10px;  
 }
+
+.itiran {
+ width: 98%;
+ margin: 1%;
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+.itiran th {
+ padding: 3px;
+ background: #778ca3;
+ border: solid 1px #666666;
+ color: #ffffff;
+}
+.itiran td {
+ padding: 3px;
+ border: solid 1px #666666;
+}
+
+.naiyou p{
+  margin: 0px;
+  color: rgb(124, 124, 124);
+  font-size: 10px;
+}
+
+/* td（データセル）とth（見出しセル）の両方に適用 */
+table tr td:nth-child(2),
+table tr th:nth-child(2),
+table tr td:nth-child(3),
+table tr th:nth-child(3) {
+  text-align: center;
+}
+
+.ma-ku{
+  float: right;
+}
+
+.ma-ku p{
+  margin: 0px;
+}
+
+h5{
+  text-align: center;
+  margin: 2px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.map img{
+  width: 98%;
+  margin: 1%;
+}
