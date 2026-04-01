@@ -81,7 +81,7 @@ table tr td:nth-child(5),
 table tr th:nth-child(5) {
   text-align: right;
   border-left: none;
-  width: 23px;
+  width: 50px;
 }
 
 table tr td:nth-child(4),
