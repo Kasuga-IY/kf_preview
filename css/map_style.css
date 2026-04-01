@@ -82,6 +82,14 @@ h5{
   margin: 1%;
 }
 
+  .setumei{
+    font-size: 11px;
+    text-align: center;
+    margin: 0px;
+    color: #6b6b6b;
+  }
+
+
 @media (max-width: 768px) {
   h4{
     font-size:13px;
@@ -99,13 +107,17 @@ h5{
     font-size: 12px;
   }
 
-  .itiran_div {
+  .itiran_div_A,.itiran_div_B,.itiran_div_C {
     overflow-x: auto;
     display: block;
   }
 
-  .itiran_div table th,
-  .itiran_div table td {
+  .itiran_div_A table th,
+  .itiran_div_B table th,
+  .itiran_div_C table th,
+  .itiran_div_A table td,
+  .itiran_div_B table td,
+  .itiran_div_C table td {
     white-space: nowrap;
   }
 
