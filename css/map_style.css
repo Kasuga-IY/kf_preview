@@ -14,7 +14,7 @@
 .card-group {
   display: grid;
   /* 1枚最低270px幅で、入る分だけ横に並べる（はみ出すと自動改行） */
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); 
   gap: 20px;            /* 写真同士の間隔 */
   align-items: start;    /* 上揃え */
   padding: 10px;
@@ -127,5 +127,15 @@ h5{
   .itiran_div table td {
     white-space: nowrap;
   }
+
+  .card-group {
+  display: grid;
+  /* 1枚最低270px幅で、入る分だけ横に並べる（はみ出すと自動改行） */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+  gap: 5px;            /* 写真同士の間隔 */
+  align-items: start;    /* 上揃え */
+  padding: 5px;
+  padding-top: 0px;
+}
 
 }
