@@ -177,3 +177,30 @@ summary {
   padding-top: 0px;
   padding-bottom: 3px;
 }
+
+@media (max-width: 768px) {
+  .accordion-003 summary{
+    font-size: 14px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  .emg{
+    height: 32px;
+  }
+
+  #more-btn{
+    font-size: 13px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  li{
+    font-size: 14px;
+  }
+}
+

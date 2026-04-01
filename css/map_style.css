@@ -77,12 +77,16 @@ table tr th:nth-child(3) {
   text-align: center;
 }
 
-.ma-ku{
-  float: right;
+table tr td:nth-child(5),
+table tr th:nth-child(5) {
+  text-align: right;
+  border-left: none;
+  width: 23px;
 }
 
-.ma-ku p{
-  margin: 0px;
+table tr td:nth-child(4),
+table tr th:nth-child(4) {
+  border-right:none;
 }
 
 h5{
@@ -95,4 +99,33 @@ h5{
 .map img{
   width: 98%;
   margin: 1%;
+}
+
+@media (max-width: 768px) {
+  h4{
+    font-size:13px;
+  }
+
+  h5{
+    font-size:16px;
+  }
+
+  .tab-1 > label{
+    padding:4px;
+  }
+
+  .itiran th ,td{
+    font-size: 12px;
+  }
+
+  .itiran_div {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .itiran_div table th,
+  .itiran_div table td {
+    white-space: nowrap;
+  }
+
 }
