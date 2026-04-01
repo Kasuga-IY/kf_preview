@@ -69,25 +69,6 @@ h4{
   font-size: 10px;
 }
 
-/* td（データセル）とth（見出しセル）の両方に適用 */
-table tr td:nth-child(2),
-table tr th:nth-child(2),
-table tr td:nth-child(3),
-table tr th:nth-child(3) {
-  text-align: center;
-}
-
-table tr td:nth-child(5),
-table tr th:nth-child(5) {
-  text-align: right;
-  border-left: none;
-  width: 50px;
-}
-
-table tr td:nth-child(4),
-table tr th:nth-child(4) {
-  border-right:none;
-}
 
 h5{
   text-align: center;
@@ -138,4 +119,86 @@ h5{
   padding-top: 0px;
 }
 
+}
+
+.G{
+  background-color: #e0e2ff;
+}
+.S{
+  background-color: #deffe4;
+}
+.A{
+  background-color: #ffe6e6;
+}
+.D{
+  background-color: #fffadd;
+}
+
+.Gmap{
+  border: 5px #7c85ff solid;
+}
+.Smap{
+  border: 5px #84ff9b solid;
+}
+.Amap{
+  border: 5px #ff7f7f solid;
+}
+.Dmap{
+  border: 5px #ffec7d solid;
+}
+
+#border{
+  border: 1px #dfdfdf solid;
+}
+
+/* td（データセル）とth（見出しセル）の両方に適用 */
+.itiran_div_A table tr td:nth-child(2),
+.itiran_div_A table tr th:nth-child(2),
+.itiran_div_A table tr td:nth-child(3),
+.itiran_div_A table tr th:nth-child(3) {
+  text-align: center;
+}
+
+.itiran_div_A table tr td:nth-child(5),
+.itiran_div_A table tr th:nth-child(5) {
+  text-align: right;
+  border-left: none;
+  width: 50px;
+}
+
+.itiran_div_A table tr td:nth-child(4),
+.itiran_div_A table tr th:nth-child(4) {
+  border-right:none;
+}
+
+
+/* td（データセル）とth（見出しセル）の両方に適用 */
+.itiran_div_B table tr td:nth-child(2),
+.itiran_div_B table tr th:nth-child(2) {
+  text-align: center;
+}
+
+.itiran_div_B table tr td:nth-child(4),
+.itiran_div_B table tr th:nth-child(4) {
+  text-align: right;
+  border-left: none;
+  width: 50px;
+}
+
+.itiran_div_B table tr td:nth-child(3),
+.itiran_div_B table tr th:nth-child(3) {
+  border-right:none;
+}
+
+
+.itiran_div_C table tr td:nth-child(3),
+.itiran_div_C table tr th:nth-child(3) {
+  text-align: right;
+  border-left: none;
+  width: 50px;
+}
+
+.itiran_div_C table tr td:nth-child(2),
+.itiran_div_C table tr th:nth-child(2) {
+  border-right:none;
 }
