@@ -204,3 +204,14 @@ summary {
   }
 }
 
+.kiji {
+  /* 方眼紙模様に必須のスタイル */
+  background-image: linear-gradient(0deg, transparent calc(100% - 1px), #dddfff calc(100% - 1px)),
+                    linear-gradient(90deg, transparent calc(100% - 1px), #dddfff calc(100% - 1px));
+  background-size: 16px 16px;
+  background-repeat: repeat;
+  background-position: center center;
+
+  /* 以下任意のスタイル */
+  padding: 20px;
+}
