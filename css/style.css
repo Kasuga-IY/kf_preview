@@ -1,7 +1,7 @@
 /* --- 1. 定数・変数 --- */
 :root {
   --main-color: #ff4438;
-  --light-color: #ffebe9;
+  --light-color: #feeeed;
   --back-color: #ffffff;
   --section-color: #f7f7f7;
   --h-color: #222222;
@@ -17,6 +17,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: #f7f7f4;
 }
 
 h1 { font-size: 2em; font-weight: bold; }
