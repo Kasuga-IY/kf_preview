@@ -21,28 +21,23 @@ body {
   font-size: 16.5px;
 }
 
-/* フルウィンドウ（大きな画面・PC） */
-html {
-  font-size: 16.5px;
-}
-
 /* ウィンドウ幅が 1024px 以下の場合 */
 @media (max-width: 1024px) {
-  html {
+  body {
     font-size: 15px;
   }
 }
 
 /* ウィンドウ幅が 768px 以下の場合（タブレットなど） */
 @media (max-width: 768px) {
-  html {
+  body {
     font-size: 14px;
   }
 }
 
 /* ウィンドウ幅が 480px 以下の場合（スマホなど） */
 @media (max-width: 480px) {
-  html {
+  body {
     font-size: 13px;
   }
 }
@@ -53,6 +48,7 @@ h3 { font-size: 1.17em; font-weight: bold; }
 h4 { font-size: 1em; font-weight: bold; }
 li { font-size: 1em; }
 p { font-size: 1em; }
+.emg {font-size: 1.5em;}
 
 p {
   margin-bottom: 10px;
