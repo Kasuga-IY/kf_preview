@@ -18,12 +18,15 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: #f7f7f4;
+  font-size: 17 px;
 }
 
 h1 { font-size: 2em; font-weight: bold; }
 h2 { font-size: 1.5em; font-weight: bold; }
 h3 { font-size: 1.17em; font-weight: bold; }
 h4 { font-size: 1em; font-weight: bold; }
+li { font-size: 1em; }
+p { font-size: 1em; }
 
 p {
   margin-bottom: 10px;
