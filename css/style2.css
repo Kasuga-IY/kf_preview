@@ -157,6 +157,7 @@
 
 
 /* タブ */
+/*
 .tab-1 {
     display: flex;
     flex-wrap: wrap;
@@ -185,7 +186,7 @@
 }
 
 .tab-1 > div {
-    display: none;
+    
     width: 100%;
     background-color: #fff;
 }

@@ -99,10 +99,6 @@ h5{
     font-size:16px;
   }
 
-  .tab-1 > label{
-    padding:4px;
-  }
-
   .itiran th ,td{
     font-size: 12px;
   }
@@ -134,29 +130,36 @@ h5{
 }
 
 .G{
-  background-color: #e0e2ff;
+  background-color: #f3db2560;
 }
 .S{
-  background-color: #deffe4;
+  background-color: #25F33760;
 }
 .A{
-  background-color: #ffe6e6;
+  background-color: #25B8F360;
 }
 .D{
-  background-color: #fffadd;
+  background-color: #F3256560;
+}
+.C{
+  background-color: #8A25F360;
 }
 
+
 .Gmap{
-  border: 5px #7c85ff solid;
+  border: 5px #f3db25 solid;
 }
 .Smap{
-  border: 5px #84ff9b solid;
+  border: 5px #25F337 solid;
 }
 .Amap{
-  border: 5px #ff7f7f solid;
+  border: 5px #25B8F3 solid;
 }
 .Dmap{
-  border: 5px #ffec7d solid;
+  border: 5px #F32565 solid;
+}
+.Cmap{
+  border: 5px #8A25F3 solid;
 }
 
 #border{
@@ -213,4 +216,39 @@ h5{
 .itiran_div_C table tr td:nth-child(2),
 .itiran_div_C table tr th:nth-child(2) {
   border-right:none;
+}
+
+label{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #dbe2e7;
+  overflow: hidden;
+}
+
+/* 各ボタンのデザイン */
+label h4 {
+  flex: 1 1;
+  min-width: 70px;
+  padding: .5em 1em;
+  background-color: #dbe2e7;
+  color: #535353;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+label a{
+  display : block;
+  color: #535353;
+  text-decoration: none;
+}
+
+.checked {
+  background-color: #ffffff;
+  border-top-width: 6px;
+  border-top-style: solid;
+  border-top-color: #ff4538;
 }
