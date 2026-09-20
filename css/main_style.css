@@ -180,16 +180,6 @@ summary {
 }
 
 @media (max-width: 768px) {
-  .accordion-003 summary{
-    font-size: 16px;
-  }
-
-
-
-  .emg{
-    height: 33px;
-  }
-
   #more-btn{
     font-size: 14px;
   }
