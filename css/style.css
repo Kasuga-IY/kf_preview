@@ -31,14 +31,14 @@ body {
 /* ウィンドウ幅が 768px 以下の場合（タブレットなど） */
 @media (max-width: 768px) {
   body {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
 /* ウィンドウ幅が 480px 以下の場合（スマホなど） */
 @media (max-width: 480px) {
   body {
-    font-size: 10px;
+    font-size: 13.4px;
   }
 }
 
