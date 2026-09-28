@@ -28,22 +28,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 
+  <!-- EXTERNAL CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic">
+
+  <!-- EXTERNAL JAVASCRIPT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+
   <meta name="robots" content="noindex,nofollow" /></head>
 <body>
 
   <div class="zentai">
 
     <div class="left">
-      <div class="cover">
-        <div class="slideshow-container">
-          <div class="logo">
+      <main class="main-content">
+  <section class="slideshow">
+    <div class="slideshow-inner">
+      <div class="logo">
             <img src="picture/sozai/icon1.png" alt="ロゴ">
           </div>
-          <div class="slide-img" style="background-image: url('picture/kari/1t.jpg');"></div>
-          <div class="slide-img" style="background-image: url('picture/kari/2t.jpg');"></div>
-          <div class="slide-img" style="background-image: url('picture/kari/3t.jpg');"></div>
-        </div>
+      <div class="slides">
       </div>
+      <div class="pagination">
+      </div>
+      
+    </div> 
+  </section>
+</main>
     </div>
 
     <div class="right"><div class="right-content">
@@ -51,19 +62,19 @@
         <h2><div class="emg"><img src="picture/sozai/emoji/emj1.jpg"></div>お知らせ</h2>
         <div class="osirase">
         <details class="accordion-003">
-          <summary>02/28　第２回春日フェスタ特設サイトがオープンしました!</summary>
+          <summary>--/--　第２回春日フェスタ特設サイトがオープンしました!</summary>
           <p>02/28 <span class="br">第２回春日フェスタ特設サイト</span>がオープンしました!</p>
         </details>
 
         <details class="accordion-003">
-            <summary>02/29　児童生徒会本部より「記事１」が公開されました。</summary>
+            <summary>--/--　児童生徒会本部より「記事１」が公開されました。</summary>
             <p><a href=#news_seitokai>こちらよりご覧ください。</a></p>
           </details>
         
 
         <div id="more-content" class="hidden">
           <details class="accordion-003">
-            <summary>02/30　記録広報委員会より「記事２」が公開されました。</summary>
+            <summary>--/--　記録広報委員会より「記事２」が公開されました。</summary>
             <p><a href=#news_kirokukouhou>こちらよりご覧ください。</a></p>
           </details>
         </div>
@@ -87,9 +98,8 @@
         <h3>開催概要</h3>
           <ul>
            <li>日付：2026年10月25日　日曜日</li>
-           <li>時間：午前の部　〇時〇分～〇時〇分<br>　　　午後の部　〇時〇分～〇時〇分</li>
+           <li>時間：10時00分から13時30分<br>※生徒ブースは11:30より30分間の休憩時間に入ります。</li>
            <li>会場：つくば市立春日学園義務教育学校</li>
-           <p>※前期課程学習発表会は保護者のみ観覧が可能です。</p>
           </ul>
       </div>
       </section>
@@ -126,32 +136,12 @@
         </div>
       </section>
 
-      <section id="news_seitokai">
-        <h2><div class="emg"><img src="picture/sozai/emoji/emj0.jpg"></div>児童生徒会本部からの記事</h2>
-        <div class="kiji">
-          <p>
-          <a href= >記事1（公開7/12）</a><br>
-          <a href= >記事2（公開7/12）</a>
-          </p>
-        </div>
-      </section>
-
       <section id="news_jikkouiinn">
-        <h2><div class="emg"><img src="picture/sozai/emoji/emj0.jpg"></div>第２回春日フェスタ実行委員会からの記事</h2>
+        <h2><div class="emg"><img src="picture/sozai/emoji/emj0.jpg"></div>春日フェスタ実行委員会からの記事</h2>
         <div class="kiji">
           <p>
-          <a href= >記事1（公開7/12）</a><br>
-          <a href= >記事2（公開7/12）</a>
-          </p>
-        </div>
-      </section>
-
-      <section id="news_kirokukouhou">
-        <h2><div class="emg"><img src="picture/sozai/emoji/emj0.jpg"></div>記録広報委員会からの記事</h2>
-        <div class="kiji">
-          <p>
-          <a href= >記事1（公開7/12）</a><br>
-          <a href= >記事2（公開7/12）</a>
+          <a href= >記事1（公開--/--）</a><br>
+          <a href= >記事2（公開--/--）</a>
           </p>
         </div>
       </section>
@@ -216,6 +206,6 @@
       <div class="footer"><img src="picture/sozai/icon3.png"></div>
     </footer>
     </div>
-  </div><script src="js/mottomiru.js"></script>
+  </div><script src="js/mottomiru.js"></script><script src="js/slideshow.js"></script>
 </body>
 </html>
