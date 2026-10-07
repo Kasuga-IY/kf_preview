@@ -166,6 +166,17 @@ h5{
   border: 1px #dfdfdf solid;
 }
 
+.itiran_div_A table td:nth-child(1),
+.itiran_div_B table td:nth-child(1),
+.itiran_div_C table td:nth-child(1){
+ font-weight: bold;
+}
+
+.itiran_div_A table td:nth-child(1) p,
+.itiran_div_B table td:nth-child(1) p,
+.itiran_div_C table td:nth-child(1) p{
+ font-weight: normal;
+}
 
 .itiran_div_A table tr td:nth-child(3),
 .itiran_div_A table tr th:nth-child(3) {
