@@ -166,31 +166,17 @@ h5{
   border: 1px #dfdfdf solid;
 }
 
-/* td（データセル）とth（見出しセル）の両方に適用 */
-.itiran_div_A table tr td:nth-child(2),
-.itiran_div_A table tr th:nth-child(2),
+
 .itiran_div_A table tr td:nth-child(3),
 .itiran_div_A table tr th:nth-child(3) {
-  text-align: center;
-}
-
-.itiran_div_A table tr td:nth-child(5),
-.itiran_div_A table tr th:nth-child(5) {
   text-align: right;
   border-left: none;
   width: 50px;
 }
 
-.itiran_div_A table tr td:nth-child(4),
-.itiran_div_A table tr th:nth-child(4) {
+.itiran_div_A table tr td:nth-child(2),
+.itiran_div_A table tr th:nth-child(2) {
   border-right:none;
-}
-
-
-/* td（データセル）とth（見出しセル）の両方に適用 */
-.itiran_div_B table tr td:nth-child(2),
-.itiran_div_B table tr th:nth-child(2) {
-  text-align: center;
 }
 
 .itiran_div_B table tr td:nth-child(4),
