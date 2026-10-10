@@ -183,6 +183,7 @@ h5{
   text-align: right;
   border-left: none;
   width: 50px;
+  min-width: 50px;
 }
 
 .itiran_div_A table tr td:nth-child(2),
@@ -195,6 +196,7 @@ h5{
   text-align: right;
   border-left: none;
   width: 50px;
+  min-width: 50px;
 }
 
 .itiran_div_B table tr td:nth-child(3),
@@ -208,6 +210,7 @@ h5{
   text-align: right;
   border-left: none;
   width: 50px;
+  min-width: 50px;
 }
 
 .itiran_div_C table tr td:nth-child(2),
