@@ -228,7 +228,7 @@ label{
 label h4 {
   flex: 1 1;
   min-width: 70px;
-  padding: .5em 1em;
+  padding: .5em .2em;
   background-color: #dbe2e7;
   color: #535353;
   text-align: center;
